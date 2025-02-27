@@ -38,7 +38,7 @@ export default class TaskUrls{
 	}
 
 	concatBaseUrl(url){ 
-		let folderName ="/tolgakartal.www" 
+		let folderName ="/Codeigniter-4-Website-Template" 
 		return window.location.origin + folderName + url
 	}
 } 
