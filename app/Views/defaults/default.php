@@ -22,7 +22,10 @@
 <body class="custom-color bg-secondary">
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="<?=base_url("/") ?>"><?= $page["settings"]["nav_title"]?></a>
+			<a class="navbar-brand" href="<?=base_url("/") ?>">
+    			<img src="data:image/ico;base64,<?=$page["settings"]["nav_icon"]?>" class="rounded" width="30" height="30" alt="">
+    			<?= $page["settings"]["nav_title"]?>
+    		</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
