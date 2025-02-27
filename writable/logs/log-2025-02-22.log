@@ -1,0 +1,1535 @@
+INFO - 2025-02-22 16:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 21:20:31 --> ErrorException: Undefined variable $students
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 27.
+ 1 APPPATH\Controllers\Public\Course.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $students', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Public\\Course.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument('$1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 21:23:59 --> ArgumentCountError: Too few arguments to function CodeIgniter\Database\BaseBuilder::where(), 0 passed in C:\wamp64\www\tolgakartal.www\system\Model.php on line 930 and at least 1 expected
+[Method: POST, Route: course/download-word-document]
+in SYSTEMPATH\Database\BaseBuilder.php on line 715.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->where()
+ 2 APPPATH\Controllers\Public\Course.php(24): CodeIgniter\Model->__call('where', [])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument('$1')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 21:24:40 --> ArgumentCountError: Too few arguments to function CodeIgniter\Database\BaseBuilder::where(), 0 passed in C:\wamp64\www\tolgakartal.www\system\Model.php on line 930 and at least 1 expected
+[Method: POST, Route: course/download-word-document]
+in SYSTEMPATH\Database\BaseBuilder.php on line 715.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->where()
+ 2 APPPATH\Controllers\Public\Course.php(24): CodeIgniter\Model->__call('where', [])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument('$1')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 21:25:43 --> ParseError: syntax error, unexpected variable "$course"
+[Method: GET, Route: course/inarray]
+in APPPATH\Controllers\Public\Course.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Public\\Course.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Public\\Course')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Public\\Course')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Public\\Course', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-22 21:25:43 --> ParseError: syntax error, unexpected variable "$course"
+[Method: GET, Route: course/inarray]
+in APPPATH\Controllers\Public\Course.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Public\\Course.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Public\\Course')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Public\\Course')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Public\\Course', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 21:28:30 --> ArgumentCountError: Too few arguments to function App\Controllers\Public\Course::DownloadWordDocument(), 0 passed in C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 21:28:54 --> ErrorException: Undefined variable $id
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 25.
+ 1 APPPATH\Controllers\Public\Course.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Public\\Course.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 21:29:45 --> ErrorException: Undefined array key "category_id"
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 35.
+ 1 APPPATH\Controllers\Public\Course.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Public\\Course.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 21:35:42 --> ErrorException: readfile(73_in_array().docx): Failed to open stream: No such file or directory
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 39.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(73_in_array().docx): Failed to open stream: No such file or directory', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Public\\Course.php', 39)
+ 2 APPPATH\Controllers\Public\Course.php(39): readfile('73_in_array().docx')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-22 21:36:12 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: course/inarray]
+in APPPATH\Controllers\Public\Course.php on line 39.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Public\\Course.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Public\\Course')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Public\\Course')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Public\\Course', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 21:36:21 --> ErrorException: file_get_contents(73_in_array().docx): Failed to open stream: No such file or directory
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 39.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(73_in_array().docx): Failed to open stream: No such file or directory', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Public\\Course.php', 39)
+ 2 APPPATH\Controllers\Public\Course.php(39): file_get_contents('73_in_array().docx')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 21:43:21 --> CodeIgniter\View\Exceptions\ViewException: Geçersiz dosya: "courses/document-word.php"
+[Method: POST, Route: course/download-word-document]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('courses/document-word.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('courses/document-word', [], true)
+ 3 APPPATH\Controllers\Public\Course.php(41): view('courses/document-word')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 21:43:35 --> CodeIgniter\View\Exceptions\ViewException: Geçersiz dosya: "course/document-word.php"
+[Method: POST, Route: course/download-word-document]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('course/document-word.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('course/document-word', [], true)
+ 3 APPPATH\Controllers\Public\Course.php(41): view('course/document-word')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 21:46:46 --> ErrorException: Undefined variable $filename
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 36.
+ 1 APPPATH\Controllers\Public\Course.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filename', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Public\\Course.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 21:47:03 --> ErrorException: Undefined variable $filePath
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 39.
+ 1 APPPATH\Controllers\Public\Course.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filePath', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Public\\Course.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 21:47:41 --> ErrorException: Undefined variable $filename
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 39.
+ 1 APPPATH\Controllers\Public\Course.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filename', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Public\\Course.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 21:47:59 --> CodeIgniter\Files\Exceptions\FileNotFoundException: Dosya bulunamadı: "C:\WINDOWS\TEMP73_in_array().docx"
+[Method: POST, Route: course/download-word-document]
+in SYSTEMPATH\Files\File.php on line 51.
+ 1 SYSTEMPATH\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('C:\\WINDOWS\\TEMP73_in_array().docx')
+ 2 SYSTEMPATH\HTTP\DownloadResponse.php(106): CodeIgniter\Files\File->__construct('C:\\WINDOWS\\TEMP73_in_array().docx', true)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(739): CodeIgniter\HTTP\DownloadResponse->setFilePath('C:\\WINDOWS\\TEMP73_in_array().docx')
+ 4 APPPATH\Controllers\Public\Course.php(39): CodeIgniter\HTTP\Response->download('TEMP73_in_array().docx', null)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 21:48:23 --> CodeIgniter\Files\Exceptions\FileNotFoundException: Dosya bulunamadı: "C:\WINDOWS\TEMP/73_in_array().docx"
+[Method: POST, Route: course/download-word-document]
+in SYSTEMPATH\Files\File.php on line 51.
+ 1 SYSTEMPATH\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('C:\\WINDOWS\\TEMP/73_in_array().docx')
+ 2 SYSTEMPATH\HTTP\DownloadResponse.php(106): CodeIgniter\Files\File->__construct('C:\\WINDOWS\\TEMP/73_in_array().docx', true)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(739): CodeIgniter\HTTP\DownloadResponse->setFilePath('C:\\WINDOWS\\TEMP/73_in_array().docx')
+ 4 APPPATH\Controllers\Public\Course.php(39): CodeIgniter\HTTP\Response->download('73_in_array().docx', null)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 21:48:38 --> CodeIgniter\Files\Exceptions\FileNotFoundException: Dosya bulunamadı: "C:\WINDOWS\TEMP\73_in_array().docx"
+[Method: POST, Route: course/download-word-document]
+in SYSTEMPATH\Files\File.php on line 51.
+ 1 SYSTEMPATH\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('C:\\WINDOWS\\TEMP\\73_in_array().docx')
+ 2 SYSTEMPATH\HTTP\DownloadResponse.php(106): CodeIgniter\Files\File->__construct('C:\\WINDOWS\\TEMP\\73_in_array().docx', true)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(739): CodeIgniter\HTTP\DownloadResponse->setFilePath('C:\\WINDOWS\\TEMP\\73_in_array().docx')
+ 4 APPPATH\Controllers\Public\Course.php(39): CodeIgniter\HTTP\Response->download('73_in_array().docx', null)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 21:49:03 --> CodeIgniter\Files\Exceptions\FileNotFoundException: Dosya bulunamadı: "C:\WINDOWS\TEMP"
+[Method: POST, Route: course/download-word-document]
+in SYSTEMPATH\Files\File.php on line 51.
+ 1 SYSTEMPATH\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('C:\\WINDOWS\\TEMP')
+ 2 SYSTEMPATH\HTTP\DownloadResponse.php(106): CodeIgniter\Files\File->__construct('C:\\WINDOWS\\TEMP', true)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(739): CodeIgniter\HTTP\DownloadResponse->setFilePath('C:\\WINDOWS\\TEMP')
+ 4 APPPATH\Controllers\Public\Course.php(39): CodeIgniter\HTTP\Response->download('TEMP', null)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 21:49:53 --> ErrorException: Undefined variable $filename
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 39.
+ 1 APPPATH\Controllers\Public\Course.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filename', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Public\\Course.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 21:50:08 --> ArgumentCountError: sys_get_temp_dir() expects exactly 0 arguments, 1 given
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 39.
+ 1 APPPATH\Controllers\Public\Course.php(39): sys_get_temp_dir('73_in_array().docx')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 21:50:36 --> CodeIgniter\Files\Exceptions\FileNotFoundException: Dosya bulunamadı: "C:\WINDOWS\TEMP73_in_array().docx"
+[Method: POST, Route: course/download-word-document]
+in SYSTEMPATH\Files\File.php on line 51.
+ 1 SYSTEMPATH\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('C:\\WINDOWS\\TEMP73_in_array().docx')
+ 2 SYSTEMPATH\HTTP\DownloadResponse.php(106): CodeIgniter\Files\File->__construct('C:\\WINDOWS\\TEMP73_in_array().docx', true)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(739): CodeIgniter\HTTP\DownloadResponse->setFilePath('C:\\WINDOWS\\TEMP73_in_array().docx')
+ 4 APPPATH\Controllers\Public\Course.php(39): CodeIgniter\HTTP\Response->download('TEMP73_in_array().docx', null)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 21:51:06 --> CodeIgniter\View\Exceptions\ViewException: Geçersiz dosya: "courses/document-word.php"
+[Method: POST, Route: course/download-word-document]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('courses/document-word.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('courses/document-word', [], true)
+ 3 APPPATH\Controllers\Public\Course.php(41): view('courses/document-word')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 21:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 21:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:05:35 --> ParseError: Unclosed '{' on line 6
+[Method: GET, Route: course/strreplace]
+in APPPATH\Controllers\Public\Course.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Public\\Course.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Public\\Course')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Public\\Course')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Public\\Course', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-22 22:05:57 --> ParseError: Unclosed '{' on line 6
+[Method: GET, Route: course/strreplace]
+in APPPATH\Controllers\Public\Course.php on line 42.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Public\\Course.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Public\\Course')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Public\\Course')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Public\\Course', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:06:28 --> Error: Class "App\Controllers\Public\PhpWord" not found
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:07:08 --> Error: Class "PhpOffice\PhpWord\Media" not found
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php on line 79.
+ 1 APPPATH\Controllers\Public\Course.php(28): PhpOffice\PhpWord\PhpWord->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:08:17 --> Error: Class "PhpOffice\PhpWord\Media" not found
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php on line 79.
+ 1 APPPATH\Controllers\Public\Course.php(28): PhpOffice\PhpWord\PhpWord->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:10:51 --> Error: Class "PhpOffice\PhpWord\Media" not found
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php on line 79.
+ 1 APPPATH\Controllers\Public\Course.php(29): PhpOffice\PhpWord\PhpWord->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:11:09 --> Error: Class "PhpOffice\PhpWord\Style" not found
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php on line 80.
+ 1 APPPATH\Controllers\Public\Course.php(30): PhpOffice\PhpWord\PhpWord->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:11:22 --> Error: Class "PhpOffice\PhpWord\Settings" not found
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php on line 81.
+ 1 APPPATH\Controllers\Public\Course.php(31): PhpOffice\PhpWord\PhpWord->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:11:38 --> Error: Class "PhpOffice\PhpWord\Collection\Bookmarks" not found
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php on line 87.
+ 1 APPPATH\Controllers\Public\Course.php(32): PhpOffice\PhpWord\PhpWord->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:13:14 --> ErrorException: Undefined variable $section
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 36.
+ 1 APPPATH\Controllers\Public\Course.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $section', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Public\\Course.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:15:42 --> ErrorException: Undefined variable $filePath
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 38.
+ 1 APPPATH\Controllers\Public\Course.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filePath', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Public\\Course.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:19:09 --> Exception: Could not load image http://tolgakartal.byethost24.com/public/uploads/images//javascript/Javascript-upload-preview.gif
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Shared\Html.php on line 1016.
+ 1 [internal function]: PhpOffice\PhpWord\Shared\Html::parseImage(Object(DOMElement), Object(PhpOffice\PhpWord\Element\TextRun), [...])
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\Shared\Html.php(259): call_user_func_array([...], [...])
+ 3 APPPATH\ThirdParty\PhpOffice\PhpWord\Shared\Html.php(291): PhpOffice\PhpWord\Shared\Html::parseNode(Object(DOMElement), Object(PhpOffice\PhpWord\Element\TextRun), [...], [])
+ 4 APPPATH\ThirdParty\PhpOffice\PhpWord\Shared\Html.php(273): PhpOffice\PhpWord\Shared\Html::parseChildNodes(Object(DOMElement), Object(PhpOffice\PhpWord\Element\TextRun), [...], [])
+ 5 APPPATH\ThirdParty\PhpOffice\PhpWord\Shared\Html.php(291): PhpOffice\PhpWord\Shared\Html::parseNode(Object(DOMElement), Object(PhpOffice\PhpWord\Element\Section), [...], [])
+ 6 APPPATH\ThirdParty\PhpOffice\PhpWord\Shared\Html.php(273): PhpOffice\PhpWord\Shared\Html::parseChildNodes(Object(DOMElement), Object(PhpOffice\PhpWord\Element\Section), [...], [])
+ 7 APPPATH\ThirdParty\PhpOffice\PhpWord\Shared\Html.php(96): PhpOffice\PhpWord\Shared\Html::parseNode(Object(DOMElement), Object(PhpOffice\PhpWord\Element\Section))
+ 8 APPPATH\Controllers\Public\Course.php(30): PhpOffice\PhpWord\Shared\Html::addHtml(Object(PhpOffice\PhpWord\Element\Section), '<body><p><img class="img-fluid" src="http://tolgakartal.byethost24.com/public/uploads/images//javascript/Javascript-upload-preview.gif" /></p><pre><code><span style="color:#643820">&lt;!DOCTYPE html&gt;</span><span style="color:#643820">&lt;html&gt;</span><span style="color:#643820">&lt;head&gt;</span>	<span style="color:#643820">&lt;title&gt;</span><span style="color:#643820">&lt;/title&gt;</span><span style="color:#643820">&lt;/head&gt;</span><span style="color:#643820">&lt;body&gt;</span>	<span style="color:#643820">&lt;hr id=<span style="color:#c41a16">&quot;progress&quot;</span> style=<span style="color:#c41a16">&quot;width:0;height:6px; background-color:blue;&quot;</span>&gt;</span>	<span style="color:#643820">&lt;input type=<span style="color:#c41a16">&quot;file&quot;</span> id=<span style="color:#c41a16">&quot;file&quot;</span> name=<span style="color:#c41a16">&quot;file&quot;</span>&gt;</span>	<span style="color:#643820">&lt;img src=<span style="color:#c41a16">&quot;&quot;</span> id=<span style="color:#c41a16">&quot;preview&quot;</span> name=<span style="color:#c41a16">&quot;preview&quot;</span>&gt;</span>	<span style="color:#643820">&lt;div id=<span style="color:#c41a16">&quot;log&quot;</span>&gt;</span>	<span style="color:#643820">&lt;/div&gt;</span>	<span style="color:#643820">&lt;script type=<span style="color:#c41a16">&quot;text/javascript&quot;</span>&gt;</span>		<span style="color:#aa0d91">const</span>  file = document.getElementById(<span style="color:#c41a16">&quot;file&quot;</span>);		<span style="color:#aa0d91">const</span> preview = document.getElementById(<span style="color:#c41a16">&quot;preview&quot;</span>);		<span style="color:#aa0d91">const</span> log = document.getElementById(<span style="color:#c41a16">&quot;log&quot;</span>);		<span style="color:#aa0d91">const</span> reader = new FileReader();		<span style="color:#aa0d91">const</span> hr = document.getElementById(<span style="color:#c41a16">&quot;progress&quot;</span>)		<span style="color:#aa0d91">handle</span>=(e)=&gt;{			<span style="color:#aa0d91">if</span>(e.lengthComputable){				<span style="color:#aa0d91">var</span> percentComplete = ((e.loaded)*<span style="color:#1c00cf">100</span>) / e.total;				<span style="color:#aa0d91">hr</span>.style.width=percentComplete.toFixed(<span style="color:#1c00cf">0</span>)+<span style="color:#c41a16">&quot;%&quot;</span>;							}			//<span style="color:#aa0d91">log</span>.innerHTML += e.type+<span style="color:#c41a16">&quot; : &quot;</span>+e.loaded+<span style="color:#c41a16">&quot;&lt;br&gt;&quot;</span>;			<span style="color:#aa0d91">if</span>(e.type ===<span style="color:#c41a16">&quot;load&quot;</span>){				<span style="color:#aa0d91">preview</span>.src=reader.result;  				<span style="color:#aa0d91">hr</span>.style.width=<span style="color:#c41a16">&quot;100%&quot;</span>;			}		}		<span style="color:#aa0d91">addListeners</span> =(reader)=&gt;{			<span style="color:#aa0d91">reader</span>.addEventListener(<span style="color:#c41a16">&quot;loadstart&quot;</span>,handle);			<span style="color:#aa0d91">reader</span>.addEventListener(<span style="color:#c41a16">&quot;load&quot;</span>,handle);			<span style="color:#aa0d91">reader</span>.addEventListener(<span style="color:#c41a16">&quot;loadend&quot;</span>,handle);			<span style="color:#aa0d91">reader</span>.addEventListener(<span style="color:#c41a16">&quot;progress&quot;</span>,handle);			<span style="color:#aa0d91">reader</span>.addEventListener(<span style="color:#c41a16">&quot;error&quot;</span>,handle);			<span style="color:#aa0d91">reader</span>.addEventListener(<span style="color:#c41a16">&quot;abort&quot;</span>,handle);		}		<span style="color:#aa0d91">selectedImage</span>=(e)=&gt;{			<span style="color:#aa0d91">log</span>.innerHTML=<span style="color:#c41a16">&quot;&quot;</span>;			<span style="color:#aa0d91">selectedImageFile</span> =file.files[<span style="color:#1c00cf">0</span>];			<span style="color:#aa0d91">if</span> (selectedImageFile) {				<span style="color:#aa0d91">addListeners</span>(reader);				<span style="color:#aa0d91">reader</span>.readAsDataURL(selectedImageFile);				<span style="color:#aa0d91">hr</span>.style.width=<span style="color:#1c00cf">0</span>;			}					}		<span style="color:#aa0d91">file</span>.addEventListener(<span style="color:#c41a16">&quot;change&quot;</span>,selectedImage);	<span style="color:#643820">&lt;/script&gt;</span><span style="color:#643820">&lt;/body&gt;</span><span style="color:#643820">&lt;/html&gt;</span></code></pre></body>', false, false)
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:22:57 --> ErrorException: unlink(C:\wamp64\www\tolgakartal.www\writable\uploads/74_forEach Döngüsü.docx): Resource temporarily unavailable
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\AbstractWriter.php on line 275.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx): Resource temporarily unavailable', 'C:\\wamp64\\www\\tolgakartal.www\\app\\ThirdParty\\PhpOffice\\PhpWord\\Writer\\AbstractWriter.php', 275)
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\AbstractWriter.php(275): unlink('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx')
+ 3 APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\Word2007.php(97): PhpOffice\PhpWord\Writer\AbstractWriter->getZipArchive('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx')
+ 4 APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php(325): PhpOffice\PhpWord\Writer\Word2007->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx')
+ 5 APPPATH\Controllers\Public\Course.php(39): PhpOffice\PhpWord\PhpWord->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx', 'Word2007')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:23:35 --> ErrorException: unlink(C:\wamp64\www\tolgakartal.www\writable\uploads/74_forEach Döngüsü.docx): Resource temporarily unavailable
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\AbstractWriter.php on line 275.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx): Resource temporarily unavailable', 'C:\\wamp64\\www\\tolgakartal.www\\app\\ThirdParty\\PhpOffice\\PhpWord\\Writer\\AbstractWriter.php', 275)
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\AbstractWriter.php(275): unlink('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx')
+ 3 APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\Word2007.php(97): PhpOffice\PhpWord\Writer\AbstractWriter->getZipArchive('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx')
+ 4 APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php(325): PhpOffice\PhpWord\Writer\Word2007->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx')
+ 5 APPPATH\Controllers\Public\Course.php(39): PhpOffice\PhpWord\PhpWord->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx', 'Word2007')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:24:43 --> Error: str_replace(): Argument #4 ($count) could not be passed by reference
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:24:47 --> Error: str_replace(): Argument #4 ($count) could not be passed by reference
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:24:49 --> Error: str_replace(): Argument #4 ($count) could not be passed by reference
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:36:53 --> Error: Class "App\Controllers\Public\Html" not found
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:37:33 --> Error: Class "App\Controllers\Public\Html" not found
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:37:45 --> Error: Class "App\Controllers\Public\Html" not found
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:37:50 --> Error: Class "App\Controllers\Public\Html" not found
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:37:55 --> Error: Class "App\Controllers\Public\Html" not found
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:38:42 --> Error: Class "App\Controllers\Public\Html" not found
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:39:54 --> ErrorException: unlink(C:\wamp64\www\tolgakartal.www\writable\uploads/74_forEach Döngüsü.docx): Resource temporarily unavailable
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\AbstractWriter.php on line 275.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx): Resource temporarily unavailable', 'C:\\wamp64\\www\\tolgakartal.www\\app\\ThirdParty\\PhpOffice\\PhpWord\\Writer\\AbstractWriter.php', 275)
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\AbstractWriter.php(275): unlink('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx')
+ 3 APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\Word2007.php(97): PhpOffice\PhpWord\Writer\AbstractWriter->getZipArchive('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx')
+ 4 APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php(325): PhpOffice\PhpWord\Writer\Word2007->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx')
+ 5 APPPATH\Controllers\Public\Course.php(41): PhpOffice\PhpWord\PhpWord->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx', 'Word2007')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:55:13 --> ErrorException: preg_replace(): Compilation failed: missing terminating ] for character class at offset 11
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Compilation failed: missing terminating ] for character class at offset 11', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Public\\Course.php', 31)
+ 2 APPPATH\Controllers\Public\Course.php(31): preg_replace('/<span[^>+\\>/i', '', '<h3>forEach D&ouml;ng&uuml;s&uuml;</h3>
+
+<h5>A&ccedil;ıklama</h5>
+
+<p>Dizinin alt elemanlarına erişim sağlamak i&ccedil;in kullanılır.</p>
+
+<h5>Kullanımı</h5>
+
+<pre>
+<code>dizi.<span style="color:#1c00cf">forEach</span>(<span style="color:#000000">(<span style="color:#5c2699">element</span>)=&gt;</span>{
+<span style="color:#007400">   // Kodlar</span>
+});</code></pre>
+
+<h5>&Ouml;rnek 1.</h5>
+
+<pre>
+<code><span style="color:#aa0d91">let</span> arr = [<span style="color:#c41a16">&quot;string&quot;</span>,<span style="color:#c41a16">&quot;integer&quot;</span>,<span style="color:#c41a16">&quot;float&quot;</span>,<span style="color:#c41a16">&quot;double&quot;</span>]
+arr.<span style="color:#1c00cf">forEach</span>(<span style="color:#000000">(<span style="color:#5c2699">item</span>)=&gt;</span>{
+&nbsp; &nbsp; <span style="color:#3f6e74">console</span>.<span style="color:#1c00cf">log</span>(item);
+});
+<span style="color:#007400">// console &ccedil;ıktısı</span>
+<span style="color:#007400">// string</span>
+<span style="color:#007400">// integer</span>
+<span style="color:#007400">// float</span>
+<span style="color:#007400">// double</span></code></pre>
+
+<h5>Notlar</h5>
+
+<p></p>
+
+<h5>Uyarılar</h5>
+
+<div class="alert alert-danger"><i class="fas fa-skull-crossbones">&nbsp;</i>:</div>
+
+<div class="alert alert-warning"><i class="fas fa-triangle-exclamation">&nbsp;</i>:</div>
+
+<div class="alert alert-success"><i class="fas fa-circle-check">&nbsp;</i>:</div>
+
+<h5>Ayrıca Bakınız</h5>
+
+<p>Fonksiyon()</p>
+')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 22:55:41 --> ErrorException: DOMDocument::loadXML(): Opening and ending tag mismatch: code line 1 and span in Entity, line: 1
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Shared\Html.php on line 92.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'DOMDocument::loadXML(): Opening and ending tag mismatch: code line 1 and span in Entity, line: 1', 'C:\\wamp64\\www\\tolgakartal.www\\app\\ThirdParty\\PhpOffice\\PhpWord\\Shared\\Html.php', 92)
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\Shared\Html.php(92): DOMDocument->loadXML('<body><h3>forEach Döngüsü</h3><h5>Açıklama</h5><p>Dizinin alt elemanlarına erişim sağlamak için kullanılır.</p><h5>Kullanımı</h5><pre><code>dizi.forEach</span>((element</span>)=&gt;</span>{   // Kodlar</span>});</code></pre><h5>Örnek 1.</h5><pre><code>let</span> arr = [&quot;string&quot;</span>,&quot;integer&quot;</span>,&quot;float&quot;</span>,&quot;double&quot;</span>]arr.forEach</span>((item</span>)=&gt;</span>{    console</span>.log</span>(item);});// console çıktısı</span>// string</span>// integer</span>// float</span>// double</span></code></pre><h5>Notlar</h5><p></p><h5>Uyarılar</h5><div class="alert alert-danger"><i class="fas fa-skull-crossbones"> </i>:</div><div class="alert alert-warning"><i class="fas fa-triangle-exclamation"> </i>:</div><div class="alert alert-success"><i class="fas fa-circle-check"> </i>:</div><h5>Ayrıca Bakınız</h5><p>Fonksiyon()</p></body>')
+ 3 APPPATH\Controllers\Public\Course.php(31): PhpOffice\PhpWord\Shared\Html::addHtml(Object(PhpOffice\PhpWord\Element\Section), '<body><h3>forEach Döngüsü</h3><h5>Açıklama</h5><p>Dizinin alt elemanlarına erişim sağlamak için kullanılır.</p><h5>Kullanımı</h5><pre><code>dizi.forEach</span>((element</span>)=&gt;</span>{   // Kodlar</span>});</code></pre><h5>Örnek 1.</h5><pre><code>let</span> arr = [&quot;string&quot;</span>,&quot;integer&quot;</span>,&quot;float&quot;</span>,&quot;double&quot;</span>]arr.forEach</span>((item</span>)=&gt;</span>{    console</span>.log</span>(item);});// console çıktısı</span>// string</span>// integer</span>// float</span>// double</span></code></pre><h5>Notlar</h5><p></p><h5>Uyarılar</h5><div class="alert alert-danger"><i class="fas fa-skull-crossbones"> </i>:</div><div class="alert alert-warning"><i class="fas fa-triangle-exclamation"> </i>:</div><div class="alert alert-success"><i class="fas fa-circle-check"> </i>:</div><h5>Ayrıca Bakınız</h5><p>Fonksiyon()</p></body>', false, false)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 22:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 22:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:02:49 --> ErrorException: unlink(C:\wamp64\www\tolgakartal.www\writable\uploads/74_forEach Döngüsü.docx): Resource temporarily unavailable
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\AbstractWriter.php on line 275.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx): Resource temporarily unavailable', 'C:\\wamp64\\www\\tolgakartal.www\\app\\ThirdParty\\PhpOffice\\PhpWord\\Writer\\AbstractWriter.php', 275)
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\AbstractWriter.php(275): unlink('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx')
+ 3 APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\Word2007.php(97): PhpOffice\PhpWord\Writer\AbstractWriter->getZipArchive('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx')
+ 4 APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php(325): PhpOffice\PhpWord\Writer\Word2007->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx')
+ 5 APPPATH\Controllers\Public\Course.php(40): PhpOffice\PhpWord\PhpWord->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx', 'Word2007')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:05:26 --> ErrorException: unlink(C:\wamp64\www\tolgakartal.www\writable\uploads/74_forEach Döngüsü.docx): Resource temporarily unavailable
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\AbstractWriter.php on line 275.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx): Resource temporarily unavailable', 'C:\\wamp64\\www\\tolgakartal.www\\app\\ThirdParty\\PhpOffice\\PhpWord\\Writer\\AbstractWriter.php', 275)
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\AbstractWriter.php(275): unlink('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx')
+ 3 APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\Word2007.php(97): PhpOffice\PhpWord\Writer\AbstractWriter->getZipArchive('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx')
+ 4 APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php(325): PhpOffice\PhpWord\Writer\Word2007->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx')
+ 5 APPPATH\Controllers\Public\Course.php(40): PhpOffice\PhpWord\PhpWord->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx', 'Word2007')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:07:00 --> ErrorException: unlink(C:\wamp64\www\tolgakartal.www\writable\uploads/74_forEach Döngüsü.docx): Resource temporarily unavailable
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\AbstractWriter.php on line 275.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx): Resource temporarily unavailable', 'C:\\wamp64\\www\\tolgakartal.www\\app\\ThirdParty\\PhpOffice\\PhpWord\\Writer\\AbstractWriter.php', 275)
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\AbstractWriter.php(275): unlink('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx')
+ 3 APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\Word2007.php(97): PhpOffice\PhpWord\Writer\AbstractWriter->getZipArchive('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx')
+ 4 APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php(325): PhpOffice\PhpWord\Writer\Word2007->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx')
+ 5 APPPATH\Controllers\Public\Course.php(40): PhpOffice\PhpWord\PhpWord->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_forEach Döngüsü.docx', 'Word2007')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:09:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\User\User::$data is deprecated in APPPATH\Controllers\User\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\User\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:09:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Course::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:09:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Category::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:09:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Course::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:09:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Course::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:16:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Course::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:16:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Category::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:16:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Course::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:16:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Course::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:16:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Course::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:16:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Course::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:16:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Category::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:16:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Course::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:16:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Course::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:16:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Course::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:16:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Course::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:16:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Course::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:17:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Course::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:17:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Course::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:17:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Category::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:17:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Course::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:17:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Category::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:17:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Course::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:17:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Course::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:17:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Course::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:17:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Course::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:20:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Course::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:20:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Category::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:20:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Course::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:24:09 --> ErrorException: unlink(C:\wamp64\www\tolgakartal.www\writable\uploads/74_switch Yapısı.docx): Resource temporarily unavailable
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\AbstractWriter.php on line 275.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx): Resource temporarily unavailable', 'C:\\wamp64\\www\\tolgakartal.www\\app\\ThirdParty\\PhpOffice\\PhpWord\\Writer\\AbstractWriter.php', 275)
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\AbstractWriter.php(275): unlink('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx')
+ 3 APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\Word2007.php(97): PhpOffice\PhpWord\Writer\AbstractWriter->getZipArchive('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx')
+ 4 APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php(325): PhpOffice\PhpWord\Writer\Word2007->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx')
+ 5 APPPATH\Controllers\Public\Course.php(40): PhpOffice\PhpWord\PhpWord->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx', 'Word2007')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:24:11 --> ErrorException: unlink(C:\wamp64\www\tolgakartal.www\writable\uploads/74_switch Yapısı.docx): Resource temporarily unavailable
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\AbstractWriter.php on line 275.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx): Resource temporarily unavailable', 'C:\\wamp64\\www\\tolgakartal.www\\app\\ThirdParty\\PhpOffice\\PhpWord\\Writer\\AbstractWriter.php', 275)
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\AbstractWriter.php(275): unlink('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx')
+ 3 APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\Word2007.php(97): PhpOffice\PhpWord\Writer\AbstractWriter->getZipArchive('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx')
+ 4 APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php(325): PhpOffice\PhpWord\Writer\Word2007->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx')
+ 5 APPPATH\Controllers\Public\Course.php(40): PhpOffice\PhpWord\PhpWord->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx', 'Word2007')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:29:57 --> ErrorException: preg_replace(): Compilation failed: unmatched closing parenthesis at offset 11
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Compilation failed: unmatched closing parenthesis at offset 11', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Public\\Course.php', 31)
+ 2 APPPATH\Controllers\Public\Course.php(31): preg_replace('#<br */?>\\s*)+#i', '<br />', '<h3>switch - case Yapısı</h3><br />
+<br />
+<h5>A&ccedil;ıklama</h5><br />
+<br />
+<p>Bir değişkenin aldığı değere g&ouml;re işlem yapmak i&ccedil;in kullanılır.</p><br />
+<br />
+<h5>Kullanımı</h5><br />
+<br />
+<pre><br />
+<code>switch(ifade){<br />
+case <font color="#000000">deger</font>: <br />
+<font color="#008000">   //Kodlar</font> <br />
+break;<br />
+...<br />
+default:<br />
+   <font color="#008000">//Kodlar</font><br />
+break;<br />
+}</code></pre><br />
+<br />
+<h5>&Ouml;rnek 1.</h5><br />
+<br />
+<pre><br />
+<code>let arr = [&quot;string&quot;,&quot;integer&quot;,&quot;float&quot;,&quot;double&quot;]<br />
+let typeId = 1<br />
+switch(typeId){<br />
+case 0:<br />
+   console.log(arr[0]);<br />
+break; case 1:<br />
+   console.log(arr[1]);<br />
+break;<br />
+case 2: <br />
+case 3:<br />
+   console.log(&quot;ondalıklı sayılar&quot;);<br />
+break;<br />
+default:<br />
+   console.log(&quot;bilinmeyen t&uuml;r&quot;);<br />
+break;<br />
+}</code></pre><br />
+<br />
+<h5>Notlar</h5><br />
+<br />
+<p>Bir değişkenin değerinin &ccedil;oklu değer i&ccedil;ermesi durumunda kullanılır. İ&ccedil; i&ccedil;e if kullanımına g&ouml;re daha hızlı ve okunaklıdır.&nbsp;</p><br />
+<br />
+<h5>Uyarılar</h5><br />
+<br />
+<div class="alert alert-warning"><i class="fas fa-triangle-exclamation">&nbsp;</i>&nbsp; case yapısından sonra break kullanılmadığı taktirde sonraki case i&ccedil;in yapılan işlem ne ise aynı işlem yapılır. (&Ouml;rnek 1 case 2 ve case 3 te olduğu gibi)</div><br />
+<br />
+<h5>Ayrıca Bakınız</h5><br />
+<br />
+<p>Fonksiyon()</p><br />
+')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:31:49 --> ErrorException: preg_replace(): Compilation failed: unmatched closing parenthesis at offset 21
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Compilation failed: unmatched closing parenthesis at offset 21', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Public\\Course.php', 31)
+ 2 APPPATH\Controllers\Public\Course.php(31): preg_replace('#<br *\\/?>\\s*(&nbsp;)*)+#', '<br />', '<h3>switch - case Yapısı</h3><br />
+<br />
+<h5>A&ccedil;ıklama</h5><br />
+<br />
+<p>Bir değişkenin aldığı değere g&ouml;re işlem yapmak i&ccedil;in kullanılır.</p><br />
+<br />
+<h5>Kullanımı</h5><br />
+<br />
+<pre><br />
+<code>switch(ifade){<br />
+case <font color="#000000">deger</font>: <br />
+<font color="#008000">   //Kodlar</font> <br />
+break;<br />
+...<br />
+default:<br />
+   <font color="#008000">//Kodlar</font><br />
+break;<br />
+}</code></pre><br />
+<br />
+<h5>&Ouml;rnek 1.</h5><br />
+<br />
+<pre><br />
+<code>let arr = [&quot;string&quot;,&quot;integer&quot;,&quot;float&quot;,&quot;double&quot;]<br />
+let typeId = 1<br />
+switch(typeId){<br />
+case 0:<br />
+   console.log(arr[0]);<br />
+break; case 1:<br />
+   console.log(arr[1]);<br />
+break;<br />
+case 2: <br />
+case 3:<br />
+   console.log(&quot;ondalıklı sayılar&quot;);<br />
+break;<br />
+default:<br />
+   console.log(&quot;bilinmeyen t&uuml;r&quot;);<br />
+break;<br />
+}</code></pre><br />
+<br />
+<h5>Notlar</h5><br />
+<br />
+<p>Bir değişkenin değerinin &ccedil;oklu değer i&ccedil;ermesi durumunda kullanılır. İ&ccedil; i&ccedil;e if kullanımına g&ouml;re daha hızlı ve okunaklıdır.&nbsp;</p><br />
+<br />
+<h5>Uyarılar</h5><br />
+<br />
+<div class="alert alert-warning"><i class="fas fa-triangle-exclamation">&nbsp;</i>&nbsp; case yapısından sonra break kullanılmadığı taktirde sonraki case i&ccedil;in yapılan işlem ne ise aynı işlem yapılır. (&Ouml;rnek 1 case 2 ve case 3 te olduğu gibi)</div><br />
+<br />
+<h5>Ayrıca Bakınız</h5><br />
+<br />
+<p>Fonksiyon()</p><br />
+')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:41:37 --> ErrorException: unlink(C:\wamp64\www\tolgakartal.www\writable\uploads/74_switch Yapısı.docx): Resource temporarily unavailable
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\AbstractWriter.php on line 275.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx): Resource temporarily unavailable', 'C:\\wamp64\\www\\tolgakartal.www\\app\\ThirdParty\\PhpOffice\\PhpWord\\Writer\\AbstractWriter.php', 275)
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\AbstractWriter.php(275): unlink('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx')
+ 3 APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\Word2007.php(97): PhpOffice\PhpWord\Writer\AbstractWriter->getZipArchive('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx')
+ 4 APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php(325): PhpOffice\PhpWord\Writer\Word2007->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx')
+ 5 APPPATH\Controllers\Public\Course.php(40): PhpOffice\PhpWord\PhpWord->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx', 'Word2007')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:46:00 --> PhpOffice\PhpWord\Exception\Exception: PDF rendering library or library path has not been defined.
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\PDF.php on line 48.
+ 1 APPPATH\ThirdParty\PhpOffice\PhpWord\IOFactory.php(45): PhpOffice\PhpWord\Writer\PDF->__construct(Object(PhpOffice\PhpWord\PhpWord))
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php(313): PhpOffice\PhpWord\IOFactory::createWriter(Object(PhpOffice\PhpWord\PhpWord), 'PDF')
+ 3 APPPATH\Controllers\Public\Course.php(41): PhpOffice\PhpWord\PhpWord->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx', 'PDF')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:47:08 --> PhpOffice\PhpWord\Exception\Exception: PDF rendering library or library path has not been defined.
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\PDF.php on line 48.
+ 1 APPPATH\ThirdParty\PhpOffice\PhpWord\IOFactory.php(45): PhpOffice\PhpWord\Writer\PDF->__construct(Object(PhpOffice\PhpWord\PhpWord))
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php(313): PhpOffice\PhpWord\IOFactory::createWriter(Object(PhpOffice\PhpWord\PhpWord), 'PDF')
+ 3 APPPATH\Controllers\Public\Course.php(43): PhpOffice\PhpWord\PhpWord->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx', 'PDF')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:47:41 --> PhpOffice\PhpWord\Exception\Exception: PDF rendering library or library path has not been defined.
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\PDF.php on line 48.
+ 1 APPPATH\ThirdParty\PhpOffice\PhpWord\IOFactory.php(45): PhpOffice\PhpWord\Writer\PDF->__construct(Object(PhpOffice\PhpWord\PhpWord))
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php(313): PhpOffice\PhpWord\IOFactory::createWriter(Object(PhpOffice\PhpWord\PhpWord), 'PDF')
+ 3 APPPATH\Controllers\Public\Course.php(44): PhpOffice\PhpWord\PhpWord->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx', 'PDF')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:48:19 --> PhpOffice\PhpWord\Exception\Exception: PDF rendering library or library path has not been defined.
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\PDF.php on line 48.
+ 1 APPPATH\ThirdParty\PhpOffice\PhpWord\IOFactory.php(45): PhpOffice\PhpWord\Writer\PDF->__construct(Object(PhpOffice\PhpWord\PhpWord))
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php(313): PhpOffice\PhpWord\IOFactory::createWriter(Object(PhpOffice\PhpWord\PhpWord), 'PDF')
+ 3 APPPATH\Controllers\Public\Course.php(44): PhpOffice\PhpWord\PhpWord->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx', 'PDF')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:48:53 --> PhpOffice\PhpWord\Exception\Exception: PDF rendering library or library path has not been defined.
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\PDF.php on line 48.
+ 1 APPPATH\ThirdParty\PhpOffice\PhpWord\IOFactory.php(45): PhpOffice\PhpWord\Writer\PDF->__construct(Object(PhpOffice\PhpWord\PhpWord))
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php(313): PhpOffice\PhpWord\IOFactory::createWriter(Object(PhpOffice\PhpWord\PhpWord), 'PDF')
+ 3 APPPATH\Controllers\Public\Course.php(46): PhpOffice\PhpWord\PhpWord->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx', 'PDF')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:49:21 --> PhpOffice\PhpWord\Exception\Exception: PDF rendering library or library path has not been defined.
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\PDF.php on line 48.
+ 1 APPPATH\ThirdParty\PhpOffice\PhpWord\IOFactory.php(45): PhpOffice\PhpWord\Writer\PDF->__construct(Object(PhpOffice\PhpWord\PhpWord))
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php(313): PhpOffice\PhpWord\IOFactory::createWriter(Object(PhpOffice\PhpWord\PhpWord), 'PDF')
+ 3 APPPATH\Controllers\Public\Course.php(47): PhpOffice\PhpWord\PhpWord->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx', 'PDF')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:49:48 --> PhpOffice\PhpWord\Exception\Exception: PDF rendering library or library path has not been defined.
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\PDF.php on line 48.
+ 1 APPPATH\ThirdParty\PhpOffice\PhpWord\IOFactory.php(45): PhpOffice\PhpWord\Writer\PDF->__construct(Object(PhpOffice\PhpWord\PhpWord))
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php(313): PhpOffice\PhpWord\IOFactory::createWriter(Object(PhpOffice\PhpWord\PhpWord), 'PDF')
+ 3 APPPATH\Controllers\Public\Course.php(47): PhpOffice\PhpWord\PhpWord->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx', 'PDF')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:50:10 --> PhpOffice\PhpWord\Exception\Exception: PDF rendering library or library path has not been defined.
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\PDF.php on line 48.
+ 1 APPPATH\ThirdParty\PhpOffice\PhpWord\IOFactory.php(45): PhpOffice\PhpWord\Writer\PDF->__construct(Object(PhpOffice\PhpWord\PhpWord))
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php(313): PhpOffice\PhpWord\IOFactory::createWriter(Object(PhpOffice\PhpWord\PhpWord), 'PDF')
+ 3 APPPATH\Controllers\Public\Course.php(44): PhpOffice\PhpWord\PhpWord->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx', 'PDF')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:50:24 --> PhpOffice\PhpWord\Exception\Exception: PDF rendering library or library path has not been defined.
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\PDF.php on line 48.
+ 1 APPPATH\ThirdParty\PhpOffice\PhpWord\IOFactory.php(45): PhpOffice\PhpWord\Writer\PDF->__construct(Object(PhpOffice\PhpWord\PhpWord))
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php(313): PhpOffice\PhpWord\IOFactory::createWriter(Object(PhpOffice\PhpWord\PhpWord), 'PDF')
+ 3 APPPATH\Controllers\Public\Course.php(43): PhpOffice\PhpWord\PhpWord->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx', 'PDF')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:50:47 --> PhpOffice\PhpWord\Exception\Exception: PDF rendering library or library path has not been defined.
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\PDF.php on line 48.
+ 1 APPPATH\ThirdParty\PhpOffice\PhpWord\IOFactory.php(45): PhpOffice\PhpWord\Writer\PDF->__construct(Object(PhpOffice\PhpWord\PhpWord))
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php(313): PhpOffice\PhpWord\IOFactory::createWriter(Object(PhpOffice\PhpWord\PhpWord), 'PDF')
+ 3 APPPATH\Controllers\Public\Course.php(42): PhpOffice\PhpWord\PhpWord->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx', 'PDF')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:51:36 --> PhpOffice\PhpWord\Exception\Exception: PDF rendering library or library path has not been defined.
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\PDF.php on line 48.
+ 1 APPPATH\ThirdParty\PhpOffice\PhpWord\IOFactory.php(45): PhpOffice\PhpWord\Writer\PDF->__construct(Object(PhpOffice\PhpWord\PhpWord))
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php(313): PhpOffice\PhpWord\IOFactory::createWriter(Object(PhpOffice\PhpWord\PhpWord), 'PDF')
+ 3 APPPATH\Controllers\Public\Course.php(41): PhpOffice\PhpWord\PhpWord->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx', 'PDF')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:51:52 --> PhpOffice\PhpWord\Exception\Exception: PDF rendering library or library path has not been defined.
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\PDF.php on line 48.
+ 1 APPPATH\ThirdParty\PhpOffice\PhpWord\IOFactory.php(45): PhpOffice\PhpWord\Writer\PDF->__construct(Object(PhpOffice\PhpWord\PhpWord))
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php(313): PhpOffice\PhpWord\IOFactory::createWriter(Object(PhpOffice\PhpWord\PhpWord), 'PDF')
+ 3 APPPATH\Controllers\Public\Course.php(40): PhpOffice\PhpWord\PhpWord->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.docx', 'PDF')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:54:05 --> Error: Class "App\Controllers\Public\Settings" not found
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:54:21 --> Error: Call to undefined method PhpOffice\PhpWord\Settings::setFdfRendererName()
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:54:31 --> PhpOffice\PhpWord\Exception\Exception: PDF rendering library or library path has not been defined.
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\PDF.php on line 48.
+ 1 APPPATH\ThirdParty\PhpOffice\PhpWord\IOFactory.php(45): PhpOffice\PhpWord\Writer\PDF->__construct(Object(PhpOffice\PhpWord\PhpWord))
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php(313): PhpOffice\PhpWord\IOFactory::createWriter(Object(PhpOffice\PhpWord\PhpWord), 'PDF')
+ 3 APPPATH\Controllers\Public\Course.php(43): PhpOffice\PhpWord\PhpWord->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.pdf', 'PDF')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:56:37 --> Error: Call to undefined method PhpOffice\PhpWord\IOFactory::createWritter()
+[Method: POST, Route: course/download-word-document]
+in APPPATH\Controllers\Public\Course.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-22 23:57:00 --> PhpOffice\PhpWord\Exception\Exception: PDF rendering library or library path has not been defined.
+[Method: POST, Route: course/download-word-document]
+in APPPATH\ThirdParty\PhpOffice\PhpWord\Writer\PDF.php on line 48.
+ 1 APPPATH\ThirdParty\PhpOffice\PhpWord\IOFactory.php(45): PhpOffice\PhpWord\Writer\PDF->__construct(Object(PhpOffice\PhpWord\PhpWord))
+ 2 APPPATH\ThirdParty\PhpOffice\PhpWord\PhpWord.php(313): PhpOffice\PhpWord\IOFactory::createWriter(Object(PhpOffice\PhpWord\PhpWord), 'PDF')
+ 3 APPPATH\Controllers\Public\Course.php(45): PhpOffice\PhpWord\PhpWord->save('C:\\wamp64\\www\\tolgakartal.www\\writable\\uploads/74_switch Yapısı.pdf', 'PDF')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Course->DownloadWordDocument()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Course))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-22 23:59:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\TemplateHtml::$session is deprecated in APPPATH\Controllers\Admin\BaseController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-02-22 23:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-22 23:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
