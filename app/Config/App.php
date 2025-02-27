@@ -16,7 +16,7 @@ class App extends BaseConfig
      *
      * E.g., http://example.com/
      */
-    public string $baseURL = 'http://localhost:88/CodeIgniter-4-Website-Template';
+    public string $baseURL = 'http://localhost:88/Codeigniter-4-Website-Template';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
