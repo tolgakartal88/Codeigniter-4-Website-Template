@@ -1,0 +1,1602 @@
+ERROR - 2025-01-22 13:14:01 --> Error connecting to the database: mysqli_sql_exception: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.1.1', 'root', Object(SensitiveParameterValue), 'b24_38059023_db', 3306, '', 0)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#7 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-22 13:14:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `routes`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\tolgakartal.www\\app\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-22 13:14:10 --> Error connecting to the database: mysqli_sql_exception: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.1.1', 'root', Object(SensitiveParameterValue), 'b24_38059023_db', 3306, '', 0)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#7 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-22 13:14:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `routes`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\tolgakartal.www\\app\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-22 13:14:11 --> Error connecting to the database: mysqli_sql_exception: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.1.1', 'root', Object(SensitiveParameterValue), 'b24_38059023_db', 3306, '', 0)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#7 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-22 13:14:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `routes`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\tolgakartal.www\\app\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-22 13:14:12 --> Error connecting to the database: mysqli_sql_exception: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.1.1', 'root', Object(SensitiveParameterValue), 'b24_38059023_db', 3306, '', 0)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#7 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-22 13:14:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `routes`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\tolgakartal.www\\app\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-22 13:14:12 --> Error connecting to the database: mysqli_sql_exception: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.1.1', 'root', Object(SensitiveParameterValue), 'b24_38059023_db', 3306, '', 0)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#7 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-22 13:14:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `routes`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\tolgakartal.www\\app\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-22 13:14:12 --> Error connecting to the database: mysqli_sql_exception: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.1.1', 'root', Object(SensitiveParameterValue), 'b24_38059023_db', 3306, '', 0)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#7 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-22 13:14:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `routes`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\tolgakartal.www\\app\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-22 13:14:13 --> Error connecting to the database: mysqli_sql_exception: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.1.1', 'root', Object(SensitiveParameterValue), 'b24_38059023_db', 3306, '', 0)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#7 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-22 13:14:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `routes`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\tolgakartal.www\\app\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-22 13:14:31 --> Error connecting to the database: mysqli_sql_exception: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.1.1', 'root', Object(SensitiveParameterValue), 'b24_38059023_db', 3306, '', 0)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#7 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-22 13:14:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `routes`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\tolgakartal.www\\app\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-22 13:14:41 --> Error connecting to the database: mysqli_sql_exception: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.1.1', 'root', Object(SensitiveParameterValue), 'b24_38059023_db', 3306, '', 0)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#7 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-22 13:14:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `routes`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\tolgakartal.www\\app\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-22 13:14:44 --> Error connecting to the database: mysqli_sql_exception: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.1.1', 'root', Object(SensitiveParameterValue), 'b24_38059023_db', 3306, '', 0)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#7 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-22 13:14:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `routes`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\tolgakartal.www\\app\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-22 13:15:05 --> Error connecting to the database: mysqli_sql_exception: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.1.1', 'root', Object(SensitiveParameterValue), 'b24_38059023_db', 3306, '', 0)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#7 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-22 13:15:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `routes`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\tolgakartal.www\\app\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-22 13:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 13:44:16 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Public/Home::file"
+[Method: POST, Route: file]
+in SYSTEMPATH\Router\Router.php on line 492.
+ 1 SYSTEMPATH\Router\Router.php(492): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Public/Home::file')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('file')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('file')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-22 13:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 13:46:16 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: /]
+in APPPATH\Controllers\Public\Home.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Public\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Public\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Public\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Public\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-22 13:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 13:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 14:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 14:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 14:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 14:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 14:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 14:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 14:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 14:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 14:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 14:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 14:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 14:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 14:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 14:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 14:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 14:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 14:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 14:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 19:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 19:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 19:51:28 --> ArgumentCountError: Too few arguments to function CodeIgniter\Files\File::__construct(), 0 passed in C:\wamp64\www\tolgakartal.www\app\Controllers\Public\Home.php on line 26 and at least 1 expected
+[Method: POST, Route: file]
+in SYSTEMPATH\Files\File.php on line 48.
+ 1 APPPATH\Controllers\Public\Home.php(26): CodeIgniter\Files\File->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Home->file()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-22 19:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 19:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 19:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 19:51:51 --> ArgumentCountError: Too few arguments to function CodeIgniter\Files\File::__construct(), 0 passed in C:\wamp64\www\tolgakartal.www\app\Controllers\Public\Home.php on line 26 and at least 1 expected
+[Method: POST, Route: file]
+in SYSTEMPATH\Files\File.php on line 48.
+ 1 APPPATH\Controllers\Public\Home.php(26): CodeIgniter\Files\File->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Home->file()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-22 19:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 19:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 19:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 19:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 19:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 19:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 19:53:52 --> ErrorException: Undefined array key "file"
+[Method: POST, Route: file]
+in APPPATH\Controllers\Public\Home.php on line 25.
+ 1 APPPATH\Controllers\Public\Home.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file"', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Public\\Home.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Home->file()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-22 19:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 19:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 19:54:24 --> ErrorException: Undefined array key 0
+[Method: POST, Route: file]
+in APPPATH\Controllers\Public\Home.php on line 25.
+ 1 APPPATH\Controllers\Public\Home.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Public\\Home.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Home->file()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-22 19:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 19:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 19:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 19:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 19:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 19:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 19:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 19:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 19:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 19:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 19:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 19:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 20:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 20:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 20:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 20:03:05 --> ErrorException: Undefined array key "file"
+[Method: POST, Route: file]
+in APPPATH\Controllers\Public\Home.php on line 27.
+ 1 APPPATH\Controllers\Public\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file"', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Public\\Home.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Home->file()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-22 20:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 20:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 20:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 20:04:24 --> CodeIgniter\Files\Exceptions\FileException: Could not move file "php5EDB.tmp" to "C:\wamp64\www\tolgakartal.www\app\/public/uploads/". Reason: rename(C:\wamp64\tmp\php5EDB.tmp,C:\wamp64\www\tolgakartal.www\app\/public/uploads/Gokturkce_204026.png): Sistem belirtilen yolu bulamıyor (code: 3)
+[Method: POST, Route: file]
+in SYSTEMPATH\Files\File.php on line 149.
+ 1 SYSTEMPATH\Files\File.php(149): CodeIgniter\Files\Exceptions\FileException::forUnableToMove('php5EDB.tmp', 'C:\\wamp64\\www\\tolgakartal.www\\app\\/public/uploads/', 'rename(C:\\wamp64\\tmp\\php5EDB.tmp,C:\\wamp64\\www\\tolgakartal.www\\app\\/public/uploads/Gokturkce_204026.png): Sistem belirtilen yolu bulamıyor (code: 3)')
+ 2 APPPATH\Controllers\Public\Home.php(29): CodeIgniter\Files\File->move('C:\\wamp64\\www\\tolgakartal.www\\app\\/public/uploads/', 'Gokturkce_204026.png')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Home->file()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-22 20:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 20:05:10 --> CodeIgniter\Files\Exceptions\FileException: Could not move file "php1319.tmp" to "C:\wamp64\www\tolgakartal.www\app\\public\uploads\/". Reason: rename(C:\wamp64\tmp\php1319.tmp,C:\wamp64\www\tolgakartal.www\app\\public\uploads\/Gokturkce_204026.png): Sistem belirtilen yolu bulamıyor (code: 3)
+[Method: POST, Route: file]
+in SYSTEMPATH\Files\File.php on line 149.
+ 1 SYSTEMPATH\Files\File.php(149): CodeIgniter\Files\Exceptions\FileException::forUnableToMove('php1319.tmp', 'C:\\wamp64\\www\\tolgakartal.www\\app\\\\public\\uploads\\/', 'rename(C:\\wamp64\\tmp\\php1319.tmp,C:\\wamp64\\www\\tolgakartal.www\\app\\\\public\\uploads\\/Gokturkce_204026.png): Sistem belirtilen yolu bulamıyor (code: 3)')
+ 2 APPPATH\Controllers\Public\Home.php(29): CodeIgniter\Files\File->move('C:\\wamp64\\www\\tolgakartal.www\\app\\\\public\\uploads\\/', 'Gokturkce_204026.png')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Home->file()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-22 20:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 20:05:27 --> CodeIgniter\Files\Exceptions\FileException: Could not move file "php55B2.tmp" to "C:\wamp64\www\tolgakartal.www\app\public\uploads\/". Reason: rename(C:\wamp64\tmp\php55B2.tmp,C:\wamp64\www\tolgakartal.www\app\public\uploads\/Gokturkce_204026.png): Sistem belirtilen yolu bulamıyor (code: 3)
+[Method: POST, Route: file]
+in SYSTEMPATH\Files\File.php on line 149.
+ 1 SYSTEMPATH\Files\File.php(149): CodeIgniter\Files\Exceptions\FileException::forUnableToMove('php55B2.tmp', 'C:\\wamp64\\www\\tolgakartal.www\\app\\public\\uploads\\/', 'rename(C:\\wamp64\\tmp\\php55B2.tmp,C:\\wamp64\\www\\tolgakartal.www\\app\\public\\uploads\\/Gokturkce_204026.png): Sistem belirtilen yolu bulamıyor (code: 3)')
+ 2 APPPATH\Controllers\Public\Home.php(29): CodeIgniter\Files\File->move('C:\\wamp64\\www\\tolgakartal.www\\app\\public\\uploads\\/', 'Gokturkce_204026.png')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Home->file()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-22 20:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 20:06:00 --> CodeIgniter\Files\Exceptions\FileException: Could not move file "phpD61F.tmp" to "C:\wamp64\www\tolgakartal.www\app\public\uploads\/". Reason: rename(C:\wamp64\tmp\phpD61F.tmp,C:\wamp64\www\tolgakartal.www\app\public\uploads\/Gokturkce_204026.png): Sistem belirtilen yolu bulamıyor (code: 3)
+[Method: POST, Route: file]
+in SYSTEMPATH\Files\File.php on line 149.
+ 1 SYSTEMPATH\Files\File.php(149): CodeIgniter\Files\Exceptions\FileException::forUnableToMove('phpD61F.tmp', 'C:\\wamp64\\www\\tolgakartal.www\\app\\public\\uploads\\/', 'rename(C:\\wamp64\\tmp\\phpD61F.tmp,C:\\wamp64\\www\\tolgakartal.www\\app\\public\\uploads\\/Gokturkce_204026.png): Sistem belirtilen yolu bulamıyor (code: 3)')
+ 2 APPPATH\Controllers\Public\Home.php(29): CodeIgniter\Files\File->move('C:\\wamp64\\www\\tolgakartal.www\\app\\public\\uploads\\/', 'Gokturkce_204026.png')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Home->file()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-22 20:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 20:06:32 --> CodeIgniter\Files\Exceptions\FileException: Could not move file "php5208.tmp" to "http://localhost:88/tolgakartal.www/public%5Cuploads%5C/". Reason: rename(): Cannot rename a file across wrapper types
+[Method: POST, Route: file]
+in SYSTEMPATH\Files\File.php on line 149.
+ 1 SYSTEMPATH\Files\File.php(149): CodeIgniter\Files\Exceptions\FileException::forUnableToMove('php5208.tmp', 'http://localhost:88/tolgakartal.www/public%5Cuploads%5C/', 'rename(): Cannot rename a file across wrapper types')
+ 2 APPPATH\Controllers\Public\Home.php(29): CodeIgniter\Files\File->move('http://localhost:88/tolgakartal.www/public%5Cuploads%5C/', 'Gokturkce_204026.png')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Public\Home->file()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-22 20:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 20:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 20:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 20:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 20:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-22 20:33:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\User\User::$data is deprecated in APPPATH\Controllers\User\BaseController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\User\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-22 20:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 21:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 21:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 21:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 21:11:00 --> ParseError: syntax error, unexpected token "return"
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Admin\\Images.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Images')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Images')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Images', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 21:11:25 --> Error: Call to undefined function App\Controllers\Admin\get_file_names()
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 21:12:05 --> ParseError: syntax error, unexpected variable "$images"
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Admin\\Images.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Images')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Images')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Images', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 21:12:10 --> Error: Call to undefined function App\Controllers\Admin\get_file_names()
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 21:16:41 --> ParseError: syntax error, unexpected token ";", expecting ")"
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Admin\\Images.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Images')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Images')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Images', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 21:18:05 --> ErrorException: Undefined variable $fileNames
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 14.
+ 1 APPPATH\Controllers\Admin\Images.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fileNames', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Admin\\Images.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 21:21:04 --> ErrorException: Undefined variable $root_path
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 14.
+ 1 APPPATH\Controllers\Admin\Images.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $root_path', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Admin\\Images.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 21:21:18 --> ErrorException: Undefined variable $page
+[Method: GET, Route: admin/images]
+in APPPATH\Views\admin\images.php on line 7.
+ 1 APPPATH\Views\admin\images.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Views\\admin\\images.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\tolgakartal.www\\app\\Views\\admin\\images.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/images.php', [], true)
+ 5 APPPATH\Controllers\Admin\Images.php(16): view('admin/images.php', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 21:21:26 --> ErrorException: Undefined variable $page
+[Method: GET, Route: admin/images]
+in APPPATH\Views\admin\images.php on line 7.
+ 1 APPPATH\Views\admin\images.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Views\\admin\\images.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\tolgakartal.www\\app\\Views\\admin\\images.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/images.php', [], true)
+ 5 APPPATH\Controllers\Admin\Images.php(16): view('admin/images.php', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 21:21:27 --> ErrorException: Undefined variable $page
+[Method: GET, Route: admin/images]
+in APPPATH\Views\admin\images.php on line 7.
+ 1 APPPATH\Views\admin\images.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Views\\admin\\images.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\tolgakartal.www\\app\\Views\\admin\\images.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/images.php', [], true)
+ 5 APPPATH\Controllers\Admin\Images.php(16): view('admin/images.php', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 21:22:15 --> ParseError: syntax error, unexpected token "=>", expecting "," or ";"
+[Method: GET, Route: admin/images]
+in APPPATH\Views\admin\images.php on line 8.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/images.php', [], true)
+ 3 APPPATH\Controllers\Admin\Images.php(16): view('admin/images.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 21:26:07 --> ParseError: syntax error, unexpected token ";", expecting ")"
+[Method: GET, Route: admin/images]
+in APPPATH\Views\admin\images.php on line 9.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/images.php', [], true)
+ 3 APPPATH\Controllers\Admin\Images.php(16): view('admin/images.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 21:26:58 --> Error: Call to undefined function len()
+[Method: GET, Route: admin/images]
+in APPPATH\Views\admin\images.php on line 9.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/images.php', [], true)
+ 4 APPPATH\Controllers\Admin\Images.php(16): view('admin/images.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 21:28:00 --> ParseError: syntax error, unexpected identifier "substr", expecting ")"
+[Method: GET, Route: admin/images]
+in APPPATH\Views\admin\images.php on line 9.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/images.php', [], true)
+ 3 APPPATH\Controllers\Admin\Images.php(16): view('admin/images.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 21:33:27 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "javascriptEkran görüntüsü 2024-01-13 144213.png"
+[Method: GET, Route: uploads/images/javascriptEkran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-01-13%20144213.png]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('uploads/images/javascriptEkran görüntüsü 2024-01-13 144213.png')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('uploads/images/javascriptEkran görüntüsü 2024-01-13 144213.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 21:33:57 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "phpEkran görüntüsü 2024-01-13 150453.png"
+[Method: GET, Route: uploads/images/courses/phpEkran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-01-13%20150453.png]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('uploads/images/courses/phpEkran görüntüsü 2024-01-13 150453.png')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('uploads/images/courses/phpEkran görüntüsü 2024-01-13 150453.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 21:34:09 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "phpEkran görüntüsü 2024-01-13 150453.png"
+[Method: GET, Route: uploads/images/courses/phpEkran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-01-13%20150453.png]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('uploads/images/courses/phpEkran görüntüsü 2024-01-13 150453.png')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('uploads/images/courses/phpEkran görüntüsü 2024-01-13 150453.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-22 21:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 21:37:46 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Ekran görüntüsü 2024-01-13 145524.pn"
+[Method: GET, Route: admin/images/folder-list/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-01-13%20145524.pn]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('admin/images/folder-list/Ekran görüntüsü 2024-01-13 145524.pn')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('admin/images/folder-list/Ekran görüntüsü 2024-01-13 145524.pn')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 21:37:46 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Ekran görüntüsü 2024-01-13 144213.pn"
+[Method: GET, Route: admin/images/folder-list/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-01-13%20144213.pn]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('admin/images/folder-list/Ekran görüntüsü 2024-01-13 144213.pn')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('admin/images/folder-list/Ekran görüntüsü 2024-01-13 144213.pn')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 21:37:46 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Ekran görüntüsü 2024-01-13 150057.pn"
+[Method: GET, Route: admin/images/folder-list/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-01-13%20150057.pn]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('admin/images/folder-list/Ekran görüntüsü 2024-01-13 150057.pn')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('admin/images/folder-list/Ekran görüntüsü 2024-01-13 150057.pn')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 21:37:46 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Ekran görüntüsü 2024-01-13 150318.pn"
+[Method: GET, Route: admin/images/folder-list/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-01-13%20150318.pn]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('admin/images/folder-list/Ekran görüntüsü 2024-01-13 150318.pn')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('admin/images/folder-list/Ekran görüntüsü 2024-01-13 150318.pn')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 21:37:51 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Ekran görüntüsü 2024-01-13 144213.pn"
+[Method: GET, Route: admin/images/folder-list/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-01-13%20144213.pn]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('admin/images/folder-list/Ekran görüntüsü 2024-01-13 144213.pn')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('admin/images/folder-list/Ekran görüntüsü 2024-01-13 144213.pn')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 21:38:16 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Ekran görüntüsü 2024-01-13 144213.pn"
+[Method: GET, Route: admin/images/folder-list/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-01-13%20144213.pn]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('admin/images/folder-list/Ekran görüntüsü 2024-01-13 144213.pn')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('admin/images/folder-list/Ekran görüntüsü 2024-01-13 144213.pn')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-22 21:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 21:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 21:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 22:06:12 --> ParseError: syntax error, unexpected variable "$postData", expecting ")"
+[Method: POST, Route: admin/images/upload-files]
+in APPPATH\Controllers\Admin\Images.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Admin\\Images.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Images')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Images')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Images', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 22:06:22 --> ErrorException: Undefined array key "file_path"
+[Method: POST, Route: admin/images/upload-files]
+in APPPATH\Controllers\Admin\Images.php on line 38.
+ 1 APPPATH\Controllers\Admin\Images.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file_path"', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Admin\\Images.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->UploadFiles()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 22:06:40 --> ErrorException: Undefined array key "file_path"
+[Method: POST, Route: admin/images/upload-files]
+in APPPATH\Controllers\Admin\Images.php on line 38.
+ 1 APPPATH\Controllers\Admin\Images.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file_path"', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Admin\\Images.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->UploadFiles()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 22:07:06 --> ErrorException: Undefined array key "file_path"
+[Method: POST, Route: admin/images/upload-files]
+in APPPATH\Controllers\Admin\Images.php on line 39.
+ 1 APPPATH\Controllers\Admin\Images.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file_path"', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Admin\\Images.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->UploadFiles()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 22:07:51 --> CodeIgniter\Files\Exceptions\FileException: Could not move file "phpF449.tmp" to "C:\wamp64\www\tolgakartal.www\public\uploads\courses\php\Gokturkce_203701.png/". Reason: rename(C:\wamp64\tmp\phpF449.tmp,C:\wamp64\www\tolgakartal.www\public\uploads\courses\php\Gokturkce_203701.png/phpF449.tmp): Sistem belirtilen yolu bulamıyor (code: 3)
+[Method: POST, Route: admin/images/upload-files]
+in SYSTEMPATH\Files\File.php on line 149.
+ 1 SYSTEMPATH\Files\File.php(149): CodeIgniter\Files\Exceptions\FileException::forUnableToMove('phpF449.tmp', 'C:\\wamp64\\www\\tolgakartal.www\\public\\uploads\\courses\\php\\Gokturkce_203701.png/', 'rename(C:\\wamp64\\tmp\\phpF449.tmp,C:\\wamp64\\www\\tolgakartal.www\\public\\uploads\\courses\\php\\Gokturkce_203701.png/phpF449.tmp): Sistem belirtilen yolu bulamıyor (code: 3)')
+ 2 APPPATH\Controllers\Admin\Images.php(38): CodeIgniter\Files\File->move('C:\\wamp64\\www\\tolgakartal.www\\public\\uploads\\courses\\php\\Gokturkce_203701.png/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->UploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 22:08:24 --> CodeIgniter\Files\Exceptions\FileException: Could not move file "php72EF.tmp" to "C:\wamp64\www\tolgakartal.www\public\uploads\images\courses\php\Gokturkce_203701.png/". Reason: rename(C:\wamp64\tmp\php72EF.tmp,C:\wamp64\www\tolgakartal.www\public\uploads\images\courses\php\Gokturkce_203701.png/php72EF.tmp): Sistem belirtilen yolu bulamıyor (code: 3)
+[Method: POST, Route: admin/images/upload-files]
+in SYSTEMPATH\Files\File.php on line 149.
+ 1 SYSTEMPATH\Files\File.php(149): CodeIgniter\Files\Exceptions\FileException::forUnableToMove('php72EF.tmp', 'C:\\wamp64\\www\\tolgakartal.www\\public\\uploads\\images\\courses\\php\\Gokturkce_203701.png/', 'rename(C:\\wamp64\\tmp\\php72EF.tmp,C:\\wamp64\\www\\tolgakartal.www\\public\\uploads\\images\\courses\\php\\Gokturkce_203701.png/php72EF.tmp): Sistem belirtilen yolu bulamıyor (code: 3)')
+ 2 APPPATH\Controllers\Admin\Images.php(38): CodeIgniter\Files\File->move('C:\\wamp64\\www\\tolgakartal.www\\public\\uploads\\images\\courses\\php\\Gokturkce_203701.png/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->UploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-22 22:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 22:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 22:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 22:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 22:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 22:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 22:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 22:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 22:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 22:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 22:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 22:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 22:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 22:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 22:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 22:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 22:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 22:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 22:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 22:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 22:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-22 22:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-22 22:32:02 --> mysqli_sql_exception: Table 'b24_38059023_db.folder' doesn't exist in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\tolgakartal.www\app\Controllers\Admin\Images.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-22 22:32:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'b24_38059023_db.folder' doesn't exist
+[Method: GET, Route: admin/images]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `folder`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin\Images.php(12): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 22:32:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'b24_38059023_db.folder' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `folder`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `folder`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `folder`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Admin\Images.php(12): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 22:32:02 --> [Caused by] mysqli_sql_exception: Table 'b24_38059023_db.folder' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `folder`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `folder`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `folder`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `folder`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Images.php(12): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 22:55:21 --> ParseError: syntax error, unexpected token "if"
+[Method: GET, Route: admin/images]
+in APPPATH\Libraries\StringLibrary.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\tolgakartal.www\\app\\Libraries\\StringLibrary.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\StringLibrary')
+ 3 APPPATH\Controllers\Admin\Images.php(22): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\StringLibrary')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 22:55:38 --> Error: Call to undefined function App\Libraries\preag_replace()
+[Method: GET, Route: admin/images]
+in APPPATH\Libraries\StringLibrary.php on line 13.
+ 1 APPPATH\Controllers\Admin\Images.php(24): App\Libraries\StringLibrary->getStringToUrl('Php')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 22:57:18 --> TypeError: CodeIgniter\Database\BaseBuilder::getOperatorFromWhereKey(): Argument #1 ($whereKey) must be of type string, int given, called in C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php on line 776
+[Method: GET, Route: admin/images]
+in SYSTEMPATH\Database\BaseBuilder.php on line 3481.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(776): CodeIgniter\Database\BaseBuilder->getOperatorFromWhereKey(0)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(717): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', [...], null, 'AND ', true)
+ 3 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->where([...])
+ 4 APPPATH\Controllers\Admin\Images.php(12): CodeIgniter\Model->__call('where', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-22 22:57:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '-'' at line 3 in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\tolgakartal.www\app\Controllers\Admin\Images.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-22 22:57:39 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '-'' at line 3
+[Method: GET, Route: admin/images]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `folders`
+WHERE `title` != = :title!=:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin\Images.php(12): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 22:57:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '-'' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `folders`
+WHERE `title` != = \'-\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `folders`
+WHERE `title` != = \'-\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `folders`
+WHERE `title` != = :title!=:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Admin\Images.php(12): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 22:57:39 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '-'' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `folders`
+WHERE `title` != = \'-\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `folders`
+WHERE `title` != = \'-\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `folders`
+WHERE `title` != = \'-\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `folders`
+WHERE `title` != = :title!=:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\Images.php(12): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:00:01 --> ParseError: syntax error, unexpected token "\", expecting ")"
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Admin\\Images.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Images')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Images')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Images', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:00:21 --> ParseError: syntax error, unexpected token "\", expecting ")"
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Admin\\Images.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Images')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Images')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Images', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:05:51 --> ErrorException: Undefined array key "root_dir"
+[Method: GET, Route: admin/images/folder-list/android-studio]
+in APPPATH\Views\admin\images.php on line 10.
+ 1 APPPATH\Views\admin\images.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "root_dir"', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Views\\admin\\images.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\tolgakartal.www\\app\\Views\\admin\\images.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/images.php', [], true)
+ 5 APPPATH\Controllers\Admin\Images.php(49): view('admin/images.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->FolderList('android-studio')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:06:25 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/images/folder-list/android-studio]
+in APPPATH\Controllers\Admin\Images.php on line 52.
+ 1 APPPATH\Controllers\Admin\Images.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Admin\\Images.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->FolderList([...])
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:08:01 --> ParseError: syntax error, unexpected variable "$images"
+[Method: GET, Route: admin/images/folder-list/android-studio]
+in APPPATH\Controllers\Admin\Images.php on line 34.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Admin\\Images.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Images')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Images')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Images', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:08:09 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/images/folder-list/android-studio]
+in APPPATH\Controllers\Admin\Images.php on line 52.
+ 1 APPPATH\Controllers\Admin\Images.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Admin\\Images.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->FolderList([...])
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:09:30 --> CodeIgniter\Files\Exceptions\FileException: Could not move file "php6397.tmp" to "C:\wamp64\www\tolgakartal.www\public\uploads\images\public\uploads\downloads\/". Reason: rename(C:\wamp64\tmp\php6397.tmp,C:\wamp64\www\tolgakartal.www\public\uploads\images\public\uploads\downloads\/Gokturkce_203701.png): Sistem belirtilen yolu bulamıyor (code: 3)
+[Method: POST, Route: admin/images/upload-files]
+in SYSTEMPATH\Files\File.php on line 149.
+ 1 SYSTEMPATH\Files\File.php(149): CodeIgniter\Files\Exceptions\FileException::forUnableToMove('php6397.tmp', 'C:\\wamp64\\www\\tolgakartal.www\\public\\uploads\\images\\public\\uploads\\downloads\\/', 'rename(C:\\wamp64\\tmp\\php6397.tmp,C:\\wamp64\\www\\tolgakartal.www\\public\\uploads\\images\\public\\uploads\\downloads\\/Gokturkce_203701.png): Sistem belirtilen yolu bulamıyor (code: 3)')
+ 2 APPPATH\Controllers\Admin\Images.php(64): CodeIgniter\Files\File->move('C:\\wamp64\\www\\tolgakartal.www\\public\\uploads\\images\\public\\uploads\\downloads\\/', 'Gokturkce_203701.png')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->UploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:12:31 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Admin\\Images.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Images')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Images')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Images', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:12:39 --> Error: Call to undefined function App\Controllers\Admin\push()
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:12:52 --> Error: Call to undefined function App\Controllers\Admin\push()
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:13:05 --> ParseError: syntax error, unexpected token "{"
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Admin\\Images.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Images')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Images')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Images', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:13:13 --> ParseError: syntax error, unexpected token "{", expecting "]"
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Admin\\Images.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Images')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Images')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Images', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:13:41 --> ParseError: syntax error, unexpected token "{", expecting "]"
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Admin\\Images.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Images')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Images')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Images', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:14:01 --> Error: Call to undefined function App\Controllers\Admin\push()
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:14:13 --> Error: Call to undefined function App\Controllers\Admin\push()
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:14:14 --> Error: Call to undefined function App\Controllers\Admin\push()
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:14:15 --> Error: Call to undefined function App\Controllers\Admin\push()
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:14:15 --> Error: Call to undefined function App\Controllers\Admin\push()
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:14:29 --> Error: Call to undefined function App\Controllers\Admin\push()
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:14:30 --> Error: Call to undefined function App\Controllers\Admin\push()
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:16:10 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Admin\\Images.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Images')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Images')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Images', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:16:35 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: admin/images]
+in APPPATH\Controllers\Admin\Images.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\tolgakartal.www\\app\\Controllers\\Admin\\Images.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Images')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Images')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Images', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:20:46 --> ErrorException: Undefined array key "category_dir"
+[Method: GET, Route: admin/images/folder-list/ardunio]
+in APPPATH\Views\admin\images.php on line 15.
+ 1 APPPATH\Views\admin\images.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_dir"', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Views\\admin\\images.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\tolgakartal.www\\app\\Views\\admin\\images.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/images.php', [], true)
+ 5 APPPATH\Controllers\Admin\Images.php(58): view('admin/images.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->FolderList('ardunio')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-22 23:21:02 --> ErrorException: Undefined array key "category_dir"
+[Method: GET, Route: admin/images/folder-list/ardunio]
+in APPPATH\Views\admin\images.php on line 15.
+ 1 APPPATH\Views\admin\images.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_dir"', 'C:\\wamp64\\www\\tolgakartal.www\\app\\Views\\admin\\images.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\tolgakartal.www\\app\\Views\\admin\\images.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/images.php', [], true)
+ 5 APPPATH\Controllers\Admin\Images.php(58): view('admin/images.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->FolderList('ardunio')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-22 23:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 23:24:25 --> CodeIgniter\Files\Exceptions\FileException: Could not move file "phpDB5.tmp" to "C:\wamp64\www\tolgakartal.www\images\php\/". Reason: rename(C:\wamp64\tmp\phpDB5.tmp,C:\wamp64\www\tolgakartal.www\images\php\/Gokturkce_203701.png): Sistem belirtilen yolu bulamıyor (code: 3)
+[Method: POST, Route: admin/images/upload-files]
+in SYSTEMPATH\Files\File.php on line 149.
+ 1 SYSTEMPATH\Files\File.php(149): CodeIgniter\Files\Exceptions\FileException::forUnableToMove('phpDB5.tmp', 'C:\\wamp64\\www\\tolgakartal.www\\images\\php\\/', 'rename(C:\\wamp64\\tmp\\phpDB5.tmp,C:\\wamp64\\www\\tolgakartal.www\\images\\php\\/Gokturkce_203701.png): Sistem belirtilen yolu bulamıyor (code: 3)')
+ 2 APPPATH\Controllers\Admin\Images.php(76): CodeIgniter\Files\File->move('C:\\wamp64\\www\\tolgakartal.www\\images\\php\\/', 'Gokturkce_203701.png')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Images->UploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Images))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-22 23:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

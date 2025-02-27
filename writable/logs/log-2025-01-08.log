@@ -1,0 +1,56 @@
+INFO - 2025-01-08 16:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-08 17:24:41 --> Error connecting to the database: mysqli_sql_exception: Bağlanılan uygun olarak belli bir süre içinde yanıt vermediğinden veya kurulan
+bağlantı bağlanılan ana bilgisayar yanıt vermediğinden bir bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('sql313.byethost...', 'b24_38059003', Object(SensitiveParameterValue), 'b24_38059003_db', 3306, '', 0)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Bağlanılan uygun olarak belli bir süre içinde yanıt vermediğinden veya kurulan
+bağlantı bağlanılan ana bilgisayar yanıt vermediğinden bir bağlantı kurulamadı in C:\wamp64\www\tolgakartal.www\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\tolgakartal.www\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\tolgakartal.www\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\tolgakartal.www\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\tolgakartal.www\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\tolgakartal.www\app\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\tolgakartal.www\system\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\t...')
+#7 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+#8 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#9 C:\wamp64\www\tolgakartal.www\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\tolgakartal.www\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\tolgakartal.www\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\tolgakartal.www\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-08 17:24:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Bağlanılan uygun olarak belli bir süre içinde yanıt vermediğinden veya kurulan
+bağlantı bağlanılan ana bilgisayar yanıt vermediğinden bir bağlantı kurulamadı
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `routes`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Config\Routes.php(9): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\wamp64\\www\\tolgakartal.www\\app\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-08 17:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
