@@ -7,7 +7,11 @@
 <?php 
 	$dt = new \App\Libraries\DateTimeLibrary()
 ?>
-<h5>Anasayfa</h5> 
+<div class="card mb-1">
+	<div class="card-body"> 
+		<h5>Anasayfa</h5> 
+	</div>
+</div>
 <nav>
   <div class="nav nav-tabs" id="nav-tab" role="tablist">
   	<?php foreach ($page["last_categories"] as $key => $value): ?>
