@@ -56,10 +56,19 @@ abstract class MainBaseController extends Controller
         // Do Not Edit This Line
         parent::initController($request, $response, $logger);
 
+        $settingsModel = new \App\Models\SettingModel();
+        $settings = $settingsModel->select("set_key,set_value")->findAll();  
+
+        foreach ($settings as $value) {
+            $settingsObject[$value["set_key"]] = $value["set_value"];
+        } 
+
+        $this->data["page"]["settings"]["title"] = $settingsObject["COMPANY_NAME"]."- Anasayfa";
+        $this->data["page"]["settings"]["nav_title"] = $settingsObject["COMPANY_NAME"];
+        $this->data["page"]["settings"]["nav_icon"] = $settingsObject["COMPANY_ICON"];
+
         $this->validation = \Config\Services::validation();
 
-        $this->data["page"]["settings"]["title"] = "Tolga KARTAL - Anasayfa";
-        $this->data["page"]["settings"]["nav_title"] = "Tolga KARTAL";
         
         $this->session = session();
         $user_in = ($this->session->has('user')?1:0);

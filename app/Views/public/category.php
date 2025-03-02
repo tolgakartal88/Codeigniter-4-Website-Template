@@ -8,7 +8,11 @@
 	$dt = new \App\Libraries\DateTimeLibrary()
 ?>
 <?php if (isset($page["category_content"][0]["category_title"])): ?>
-	<h5><?= $page["category_content"][0]["category_title"] ?></h5> 
+	<div class="card mb-1">
+		<div class="card-body"> 
+			<h5><?= $page["category_content"][0]["category_title"] ?></h5> 
+		</div>
+	</div> 
 	<form id="search-box">
 		 
 	</form>

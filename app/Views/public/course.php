@@ -5,7 +5,11 @@
 
 <?= $this->section('content') ?> 
 <?php foreach ($page["course_content"] as $key => $value): ?>
-	<h5><a href="<?= base_url('category/'.$value["category_url"])?>"><?= $value["category_title"] ?></a> > <?= $value["title"] ?> - [ <?= $value["description"] ?> ]</h5> 
+	<div class="card mb-1">
+		<div class="card-body"> 
+			<h5><a href="<?= base_url('category/'.$value["category_url"])?>"><?= $value["category_title"] ?></a> > <?= $value["title"] ?> - [ <?= $value["description"] ?> ]</h5> 
+		</div>
+	</div>  
 	<p><?= $value["content"] ?></p>
 	<hr/>
 	<button id="download-word-document" class="btn btn-primary mb-1" data-id="<?=$value["id"] ?>"><i class="fas fa-xl fa-file-word me-2"></i>İndir</button> 
