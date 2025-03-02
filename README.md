@@ -11,7 +11,7 @@
 <li>PhpOffice
   <ul>
     <li>PhpWord</li>
-    <li>PhpSpreadSheet</li>
+    <li>PhpSheetSpread</li>
   </ul>
 </li> 
 </ul>
